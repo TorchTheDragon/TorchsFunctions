@@ -3,11 +3,10 @@
     "license": "Public",
     "description": "Just a collection of the functions that Torch has made for everyone to use",
     "contributors": ["TorchTheDragon"],
-    "version": "0.1.1",
-    "releasenote": "Potential fix, idk im new to this",
+    "version": "0.1.2",
+    "releasenote": "Changed dependencies",
     "dependencies": {
-        "flixel" : "",
-        "openfl" : ""
+        "flixel" : "5.2.2"
     },
     "url": "https://github.com/TorchTheDragon/TorchsFunctions",
     "classPath": "src"
