@@ -3,8 +3,12 @@
     "license": "Public",
     "description": "Just a collection of the functions that Torch has made for everyone to use",
     "contributors": ["TorchTheDragon"],
-    "version": "0.0.1",
+    "version": "0.1.0",
     "releasenote": "Test First Release, basic code",
-    "dependencies": {},
-    "url": "https://github.com/TorchTheDragon/TorchsFunctions"
+    "dependencies": {
+        "flixel" : "",
+        "openfl" : ""
+    },
+    "url": "https://github.com/TorchTheDragon/TorchsFunctions",
+    "classPath": "torchsfunctions/"
 }
