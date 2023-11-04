@@ -5,6 +5,6 @@
     "contributors": ["TorchTheDragon"],
     "version": "0.0.1",
     "releasenote": "Test First Release, basic code",
-    "dependencies": {
-    }
+    "dependencies": {},
+    "url": "https://github.com/TorchTheDragon/TorchsFunctions"
 }
