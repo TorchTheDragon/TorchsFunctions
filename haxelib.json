@@ -3,8 +3,8 @@
     "license": "Public",
     "description": "Just a collection of the functions that Torch has made for everyone to use",
     "contributors": ["TorchTheDragon"],
-    "version": "0.1.3",
-    "releasenote": "Accidentally reversed bool values... whoops",
+    "version": "0.2.1",
+    "releasenote": "Fix wrong table check",
     "dependencies": {
         "flixel" : "5.2.2"
     },
