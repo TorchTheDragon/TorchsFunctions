@@ -3,8 +3,8 @@
     "license": "Public",
     "description": "Just a collection of the functions that Torch has made for everyone to use",
     "contributors": ["TorchTheDragon"],
-    "version": "0.3.0",
-    "releasenote": "Added some Extra Functions",
+    "version": "0.3.1",
+    "releasenote": "Removed a function that doesn't work",
     "dependencies": {
         "flixel" : "5.2.2"
     },
