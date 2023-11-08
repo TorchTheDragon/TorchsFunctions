@@ -9,5 +9,5 @@
         "flixel" : "5.2.2"
     },
     "url": "https://github.com/TorchTheDragon/TorchsFunctions",
-    "classPath": "src"
+    "classPath": "src/"
 }
