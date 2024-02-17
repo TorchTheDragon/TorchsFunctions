@@ -3,8 +3,8 @@
     "license": "Public",
     "description": "Just a collection of the functions that Torch has made for everyone to use",
     "contributors": ["TorchTheDragon"],
-    "version": "0.3.2",
-    "releasenote": "Should work without a specific Flixel version... hopefully, also added Lime as a dependency because, well, it does need it",
+    "version": "0.3.3",
+    "releasenote": "Pulled a request updating a function",
     "dependencies": {
         "flixel" : "",
         "lime" : ""
