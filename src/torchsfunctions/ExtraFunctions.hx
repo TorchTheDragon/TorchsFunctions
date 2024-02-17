@@ -21,5 +21,5 @@ class ExtraFunctions{
     @author LunarCleint
     **/
     public static function stringToEase(easeName:String, suffix:String)
-        return Reflect.field(FlxEase, mainEase + (mainEase == "linear" ? "" : suffix));
+        return Reflect.field(FlxEase, easeName + (easeName == "linear" ? "" : suffix));
 }
