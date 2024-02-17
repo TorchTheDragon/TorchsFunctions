@@ -17,24 +17,9 @@ class ExtraFunctions{
     @param easeName The ease you want the function to return
 
     @return FlxEase
+
+    @author LunarCleint
     **/
-    public static function stringToEase(easeName:String) {
-        // a shitty way to convert a string to a ease but it should work for now
-        var daEase:String = 'FlxEase.linear';
-        for (ease in Type.getInstanceFields(FlxEase)){
-            if (Type.typeof(Reflect.getProperty(FlxEase, ease)) != TFunction)
-                continue;
-
-            daEase = 'FlxEase.${ease.toLowerCase().trim()}';
-            trace(daEase);
-
-            if (daEase.substr(8, daEase.length - 1) == easeName.toLowerCase().trim()){
-                // final e = Reflect.field(FlxEase, cast(daEase, FlxEase));
-                final e = cast daEase;
-                trace(e);
-                return e;
-            }
-        }
-        return FlxEase.linear;
-    }
+    public static function stringToEase(easeName:String, ?suffix:String = "")
+        return Reflect.field(FlxEase, easeName + (easeName == "linear" ? "" : suffix));
 }
