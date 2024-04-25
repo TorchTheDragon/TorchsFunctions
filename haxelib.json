@@ -3,8 +3,8 @@
     "license": "Public",
     "description": "Just a collection of the functions that Torch has made for everyone to use",
     "contributors": ["TorchTheDragon"],
-    "version": "0.3.3",
-    "releasenote": "Pulled a request updating a function",
+    "version": "0.4.0",
+    "releasenote": "Added a new Array function",
     "dependencies": {
         "flixel" : "",
         "lime" : ""

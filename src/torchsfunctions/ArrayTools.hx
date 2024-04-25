@@ -1,5 +1,10 @@
 package torchsfunctions;
 
+#if sys
+import sys.FileSystem;
+import sys.io.File;
+#end
+
 using StringTools;
 
 class ArrayTools{
@@ -32,5 +37,19 @@ class ArrayTools{
             }
         }
         return tempArray;
+    }
+    /**
+        All this does is take a txt file in your assets and converts it into a string array.
+    
+        @param pathToTXT The file path to the text file.
+        @param arrayToPushTo The array you want the text to be pushed to.
+    **/
+    public static function txtToArray(pathToTXT:String, arrayToPushTo:Array<Dynamic>) {
+        if (FileSystem.exists(pathToTXT)) {
+            var temp = File.getContent(pathToTXT).trim().split("\n");
+            for (i in 0...temp.length) {
+                arrayToPushTo.push(temp[i]);
+            }
+        }
     }
 }
