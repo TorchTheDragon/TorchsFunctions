@@ -3,11 +3,13 @@
     "license": "Public",
     "description": "Just a collection of the functions that Torch has made for everyone to use",
     "contributors": ["TorchTheDragon"],
-    "version": "0.4.0",
-    "releasenote": "Added a new Array function",
+    "version": "0.5.0",
+    "releasenote": "Added 2 dependencies and a custom FlxRuntimeShader to allow for screen position grabbing and seeing camera bounds",
     "dependencies": {
         "flixel" : "",
-        "lime" : ""
+        "lime" : "",
+        "flixel-addons" : "",
+        "openfl" : ""
     },
     "url": "https://github.com/TorchTheDragon/TorchsFunctions",
     "classPath": "src"
