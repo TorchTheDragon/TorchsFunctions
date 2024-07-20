@@ -1,4 +1,4 @@
-package torchsfunctions;
+package torchsfunctions.functions;
 
 import flixel.tweens.FlxEase;
 import lime.system.System;
@@ -10,7 +10,7 @@ import sys.io.File;
 
 using StringTools;
 
-class ExtraFunctions{
+class Extras{
     /**
     Just insert an ease name, like linear or quadOut for example, and it'll return it as an actual FlxEase value instead of a string. Useful if you have something customizable instead of perma set to a ease.
 

@@ -1,6 +1,6 @@
-package torchsfunctions;
+package torchsfunctions.functions;
 
-class MathFunctions {
+class MathTools {
     /**
     Returns the midpoint between 2 numbers. Can be useful for X or Y positions.
 

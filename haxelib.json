@@ -3,8 +3,8 @@
     "license": "Public",
     "description": "Just a collection of the functions that Torch has made for everyone to use",
     "contributors": ["TorchTheDragon"],
-    "version": "0.5.0",
-    "releasenote": "Added 2 dependencies and a custom FlxRuntimeShader to allow for screen position grabbing and seeing camera bounds",
+    "version": "0.6.0",
+    "releasenote": "Moved all actual functions into a new folder, left shader alone as that is the only version.",
     "dependencies": {
         "flixel" : "",
         "lime" : "",

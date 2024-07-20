@@ -1,4 +1,4 @@
-package torchsfunctions;
+package torchsfunctions.functions;
 
 #if sys
 import sys.FileSystem;

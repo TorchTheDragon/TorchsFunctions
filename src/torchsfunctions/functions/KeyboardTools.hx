@@ -1,11 +1,11 @@
-package torchsfunctions;
+package torchsfunctions.functions;
 
 import flixel.FlxG;
 import flixel.input.keyboard.FlxKey;
 
 using StringTools;
 
-class KeyboardFunctions{
+class KeyboardTools{
     /**
      * Just a simple function to determine which key was pressed. Good for sequential keypresses. An example of how to use this is by simply adding the value to a string in the update function.
      * 
