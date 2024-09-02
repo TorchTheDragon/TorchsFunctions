@@ -83,6 +83,10 @@ class PostRuntimeShader extends FlxRuntimeShader {
 		setResolution(FlxG.width, FlxG.height);
     }
 
+	public function update(elapsed:Float) {
+		// This is only here for override purposes, please incorporate this into your state's own update function.
+	}
+
 	public function setResolution(screenWidth:Float, screenHeight:Float) {
         this.setFloatArray('uScreenResolution', [screenWidth, screenHeight]);
     }

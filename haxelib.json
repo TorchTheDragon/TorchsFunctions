@@ -3,8 +3,8 @@
     "license": "Public",
     "description": "Just a collection of the functions that Torch has made for everyone to use",
     "contributors": ["TorchTheDragon"],
-    "version": "0.6.0",
-    "releasenote": "Moved all actual functions into a new folder, left shader alone as that is the only version.",
+    "version": "0.6.2",
+    "releasenote": "Added Shader Utilites and a function to the Runtime Shader.",
     "dependencies": {
         "flixel" : "",
         "lime" : "",
