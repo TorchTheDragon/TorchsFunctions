@@ -23,10 +23,8 @@ class KeyboardTools{
         var characterToAdd:String = "";
         if (FlxG.keys.justPressed.ANY) {
             final key = cast(FlxG.keys.firstJustPressed(), FlxKey);
-            if (key != FlxKey.NONE){
-                final i = key.toString().toUpperCase();
-                characterToAdd += FlxKey.fromStringMap.get(i);
-            }
+            if (key != FlxKey.NONE)
+                characterToAdd += key.toString().toUpperCase();
         }
         return characterToAdd;
     }
