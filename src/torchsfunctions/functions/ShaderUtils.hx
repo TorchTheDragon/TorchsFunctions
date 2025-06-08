@@ -24,7 +24,7 @@ class ShaderUtils {
 
     public static function applyShadersToCams(cameras:Array<FlxCamera>, shaders:Array<FlxShader>) {
         for (camera in cameras) {
-            var filters:Array<ShaderFilter> = [];
+            var filters:Array<BitmapFilter> = [];
             for (shader in shaders) {
                 var tempFilter:ShaderFilter = new ShaderFilter(shader);
                 filters.push(tempFilter);
