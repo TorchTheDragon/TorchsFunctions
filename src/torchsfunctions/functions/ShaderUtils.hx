@@ -16,11 +16,27 @@ class ShaderUtils {
         }
     }
 
+    public static function applyFilterToCams(cameras:Array<FlxCamera>, filter:BitmapFilter) {
+        for (camera in cameras) {
+            camera.filters = [filter];
+        }
+    }
+
     public static function applyShadersToCams(cameras:Array<FlxCamera>, shaders:Array<FlxShader>) {
         for (camera in cameras) {
+            var filters:Array<ShaderFilter> = [];
             for (shader in shaders) {
-                camera.setFilters([new ShaderFilter(shader)]);
+                var tempFilter:ShaderFilter = new ShaderFilter(shader);
+                filters.push(tempFilter);
             }
+            camera.setFilters(filters);
+        }
+    }
+
+    public static function applyShaderToCams(cameras:Array<FlxCamera>, shader:FlxShader) {
+        for (camera in cameras) {
+            var tempFilter:ShaderFilter = new ShaderFilter(shader);
+            camera.setFilters([tempFilter]);
         }
     }
 

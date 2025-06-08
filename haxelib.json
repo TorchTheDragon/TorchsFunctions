@@ -3,8 +3,8 @@
     "license": "Public",
     "description": "Just a collection of the functions that Torch has made for everyone to use",
     "contributors": ["TorchTheDragon"],
-    "version": "0.7.0",
-    "releasenote": "Updated a few things, mainly from my FNF Engine Port.",
+    "version": "0.7.1",
+    "releasenote": "Fixed an issue and added a couple new shader functions",
     "dependencies": {
         "flixel" : "",
         "lime" : "",
